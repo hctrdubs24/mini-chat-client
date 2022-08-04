@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useState, useEffect } from "react";
 
 // const socket = io("http://localhost:5000");
-const socket = io('http://localhost:4000');
+const socket = io('https://mini-chat-backend.herokuapp.com/');
 
 
 function App() {
